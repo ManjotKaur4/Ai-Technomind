@@ -1,0 +1,35 @@
+h2.services-h2 {
+    color: #0E314C;
+    font-family: "Poppins", Sans-serif;
+    font-size: 46px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 50px;
+}
+
+p.cvGsUA.direction-ltr.align-start.para-style-body {
+    text-align: center !important;
+}
+
+.text-container.p-4 {
+    text-align: center;
+}
+
+
+
+
+@keyframes moveUpDown {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.moving-effect {
+    animation: moveUpDown 3s ease-in-out infinite;
+}
